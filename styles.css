@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+:root {
+    --bgcolor: #9ca3af;
+}
+
+h1{
+    text-align: center;
+ }
+
+body {
+    background-color: var(--bgcolor);
+    text-align: center;
+    font-family: 'Aboreto', cursive;
+    
+}
+
+#btn-translate {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #111827;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+textarea {
+    width: 80%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#output {
+    background-color: whitesmoke;
+    font-weight: bolder;
+    border: 1px solid black;
+    height: 10vh;
+    width: 80%;
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
